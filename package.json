@@ -1,0 +1,12 @@
+{
+    "name": "stock-lookup",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "mongodb": "^5.9.2",
+        "node-fetch": "^3.3.2"
+    }
+}

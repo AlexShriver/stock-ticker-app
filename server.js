@@ -80,7 +80,7 @@ http.createServer(async (req, res) => {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.end('<h1>Welcome! Use the /process?query=XYZ&searchType=company or ticker</h1>');
     }
-}).listen(8080, () => {
+}).listen(process.env.PORT || 8080, () => {
     console.log('HTTP server running at http://localhost:8080/');
 });
 
